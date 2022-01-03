@@ -1,0 +1,90 @@
+@import url(./header.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: 
+  rgba(0, 0, 0, 0.8) url(../assets/landingPages/background.png);
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /*IE and Edge*/
+  scrollbar-width: none; /* Firefox*/
+  -webkit-user-select: none; 
+  -khtml-user-select: none; 
+    -moz-user-select: none;
+     -ms-user-select: none;
+         user-select: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin: 50px 0;
+  color: white;
+}
+
+.matches {
+  margin-top: -2rem;
+  /* padding-top: 2rem; */
+  height: 59vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /*IE and Edge*/
+  scrollbar-width: none; /* Firefox*/
+  scroll-behavior: smooth;
+  -webkit-touch-callout: none; 
+}
+
+.matches::-webkit-scrollbar {
+  display: none;
+}
+
+.match {
+  display: flex;
+  width: 95%;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.match img {
+  width: 22%;
+}
+
+.match-text {
+  width: 50%;
+  text-align: center;
+}
+
+.match-text h1 {
+  font-size: 24px;
+}
+
+.match-text h2 {
+  font-size: 20px;
+}
+
+

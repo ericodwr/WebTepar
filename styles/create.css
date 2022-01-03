@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600&family=Roboto:wght@300&display=swap');
+@import url(./header.css);
+@import url(./notif.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.active {
+  color: black;
+}
+
+body {
+  overflow:hidden;
+  background:url(../assets/mainPages/shades.png);
+  background-size: cover;
+  background-position: center;
+}
+
+#man {
+  position:absolute;
+  height: 85%;
+  width: auto;
+  margin-top: 20px;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+  
+}
+
+.main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: space-around;
+  margin-left: 50%;
+  
+}
+
+.teks {
+  color: white;
+  -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none; 
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+.teks h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#INPUT {
+  color: #D68000;
+}
+
+.teks p {
+  color: #D68000;
+  font-size: 16px;
+}
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.input input, select {
+  margin: 10px 0;
+  width: 435px;
+  height: 60px;
+  border-radius: 10px;
+  border-color: #D68000;
+  border-style: solid;
+  padding-left: 10px;
+  background:none;
+  text-align: left;
+  color: #D68000;
+  font-size: 20px;
+  
+}
+
+.input input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input input:hover {
+  border-color: #ff9a03;
+}
+
+.input select:hover {
+  border-color: #ff9a03;
+}
+
+
+.input input:focus {
+  outline: none;
+  border-color: #ff9a03;
+}
+
+.input select:focus {
+  outline: none;
+  border-color: #ff9a03;
+}
+
+.input select {
+  border: 2px solid #D68000;
+  
+}
+
+.input select {
+  background: #272727;
+}
+
+
+.option {
+  background-color: white;
+  width: 100%;
+  height: 10vh;
+}
+
+.input ::placeholder {
+  color: #D68000;
+}
+
+.input button {
+  margin-top: 10px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.btn {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.btn button {
+  margin-left: 30px;
+  width: 120px;
+  height: 50px;
+  border-radius: 40px;
+  background: #D68000;
+  border: none;
+}
+
+.btn button:hover {
+  cursor: pointer;
+  background-color: #ee930a ;
+}
+
+.btn button:active {
+  background-color: #D68000;
+}
+
+
+
+.complete {
+  display: none;
+}
+
+.focus a {
+  color: blue;
+}
+
+.reset {
+  display: none;
+}
+
+select#location {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='orange' height='45' viewBox='0 -3 24 24' width='50' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}
+
+select#number {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='orange' height='45' viewBox='0 -3 24 24' width='50' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+}

@@ -1,0 +1,280 @@
+/* Notifications Input Data Team */
+.complete {
+  width: 503px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid #D68000;
+}
+
+.img  {
+  height: 40%;
+  width: auto;
+  margin-top: -5rem;
+}
+
+.text-completed {
+  text-align: center;
+}
+
+.text-completed h1 {
+  font-size:36px;
+  font-weight:bold;
+}
+
+.text-completed p {
+  font-size: 24px;
+  color: #C5C5C5;
+}
+
+.btn-find button {
+  width: 234px;
+  height: 62px;
+  background-color:#D68000;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-find
+ button {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-find
+ button:hover {
+  background-color: #ee930a;
+}
+
+.btn-find
+ button:active {
+  background-color:#D68000;
+}
+
+/* Reset Notifications */
+
+.reset {
+  width: 503px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid #D68000;
+}
+
+.img  {
+  height: 40%;
+  width: auto;
+  margin-top: -5rem;
+}
+
+.text-reset {
+  text-align: center;
+}
+
+.text-reset h1 {
+  font-size:36px;
+  font-weight:bold;
+}
+
+.text-reset p {
+  font-size: 24px;
+  color: #C5C5C5;
+}
+
+.btn-close button {
+  width: 234px;
+  height: 62px;
+  background-color:#D68000;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-close
+ button {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-close
+ button:hover {
+  background-color: #ee930a;
+}
+
+.btn-close
+ button:active {
+  background-color:#D68000;
+}
+
+
+
+/* Find Enemy Notifications */
+
+.options {
+  width: 503px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid #D68000;
+}
+
+.text-options {
+  text-align: center;
+}
+
+.text-options h1 {
+  font-size:36px;
+  font-weight:bold;
+}
+
+.text-options p {
+  font-size: 24px;
+  color: #C5C5C5;
+}
+
+
+
+.btn-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn-options button {
+  width: 150px;
+  height: 62px;
+  background-color:#D68000;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+
+.btn-options
+ button {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-options
+ button:hover {
+  background-color: #ee930a;
+}
+
+.btn-options
+ button:active {
+  background-color:#D68000;
+}
+
+
+.btn-options {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#no  {
+  background-color: white;
+  border: 3px #D68000 solid;
+  color: #D68000;
+}
+
+#no:hover {
+  color: #ee930a;
+  border: 3px #ee930a solid;
+}
+
+#no:active {
+  background-color: #D68000;
+  color: white;
+}
+
+
+/* Success Notifications */
+
+.success {
+  width: 503px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #ffffff;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 3px solid #D68000;
+}
+
+.text-success {
+  text-align: center;
+}
+
+.text-success h1 {
+  font-size:36px;
+  font-weight:bold;
+}
+
+.text-success p {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #C5C5C5;
+}
+
+.btn-success {
+  margin-top: -20px;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.btn-success button {
+  width: 250px;
+  height: 62px;
+  background-color:#D68000;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-success
+ button:hover {
+  background-color: #ee930a;
+}
+
+.btn-success
+ button:active {
+  background-color:#D68000;
+}

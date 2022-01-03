@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find Enemy</title>
+  <link rel="stylesheet" href="./styles/find.css">
+</head>
+<body>
+  <div class="header">
+    <img src="./assets/landingPages/logo.png" id="logo" onclick="window.location.href = 'index.html'" alt="logo">
+    <img src="./assets/landingPages/Rectangle 12.svg" id="shape" alt="">
+    <a href="./create.html">Create Team</a>
+    <a id="active" href="find.html">Find Enemy</a>
+    <a href="match.html">Match List</a>
+  </div>
+  <div class="main">
+    <div class="search">
+      <div class="text">
+        <h1>READY <span id="text">TO FIGHT?</span> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odio non voluptatibus odit autem asperiores voluptates reprehenderit totam rerum blanditiis, ab, molestias labore ex distinctio cumque neque enim sint praesentium quos ullam aliquam? Commodi dignissimos quibusdam nisi provident maiores consequatur.</p>
+      </div>
+      <div class="choose">
+        <div class="locations">
+          <div class="locationList arrow">
+            <h1>Location</h1>
+          </div>
+          <ul>
+            <li>
+              <div class="location">
+                <ul>
+                  <li id="jakarta">Jakarta Pusat</li>
+                  <li>Jakarta Timur</li>
+                  <li>Jakarta Barat</li>
+                  <li>Jakarta Selatan</li>
+                  <li>Jakarta Utara</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="team">
+          <div class="selectTeam arrow">
+            <h1>Data Team</h1>
+          </div>
+          <ul>
+            <li>
+              <div class="myTeam">
+                <ul>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <button id="search">SEARCH</button>
+      </div>
+    </div>
+    <!-- No result -->
+      <div class="unlisted">
+        <h1>no result</h1>
+      </div>
+      <!-- List Enemy -->
+      <div class="list">
+        <table>
+          <thead>
+            <tr>
+              <th>Team Name</th>
+              <th>Captain Name</th>
+              <th>Number of Player</th>
+              <th>Location</th>
+              <th>Phone Number</th>
+              <th>Button</th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+  </div>
+  <div class="options">
+    <div class="img">  
+      <img src="./assets/findPages/question.png" alt="">
+    </div>
+    <div class="text-options">
+      <h1>Want to Choose This Team?</h1>
+      <p>Click "yes" if you want to choose this team</p>
+    </div>
+    <div class="btn-options">
+      <button id="yes">yes</button>
+      <button id="no">no</button>
+    </div>
+  </div>
+  <div class="success">
+    <div class="img">  
+      <img src="./assets/mainPages/check success.png" alt="">
+    </div>
+    <div class="text-success">
+      <h1>Congratulations!</h1>
+      <p>You’ve found your enemy,<br>
+        good luck in the match</p>
+    </div>
+    <div class="btn-success">
+      <button id="matchList">See Match list</button>
+    </div>
+  </div>
+  <script src="./script/data.js"></script>
+  <script src="./script/find.js"></script>
+</body>
+</html>

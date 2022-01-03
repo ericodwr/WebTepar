@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Team</title>
+  <link rel="stylesheet" href="styles/create.css">
+</head>
+<body>
+  <div class="header">
+    <img src="./assets/landingPages/logo.png" id="logo" onclick="window.location.href = 'index.html'" alt="logo">
+    <img src="./assets/landingPages/Rectangle 12.svg" id="shape" alt="">
+    <a id="active" href="/create.html">Create Team</a>
+    <a href="find.html">Find Enemy</a>
+    <a href="match.html">Match List</a>
+  </div>
+  <img src="./assets/mainPages/man.png" id="man" alt="">
+  <div class="main">
+    <div class="teks">
+      <h1><span id="INPUT">INPUT</span> TEAM DATA</h1>
+      <p>Lorem ipsum dolor sit.</p>
+      <div class="input">
+        <input type="text" name="" id="teamName" placeholder="Team Name" maxlength="7">
+        <input type="text" name="" id="captName" placeholder="Captain Team" maxlength="7">
+        <select name="Number" id="number">
+          <option selected disabled id="#number">Number of Players</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        <select name="location" id="location">
+          <option  selected disabled id="location">Location</option>
+          <option value="Jakarta Selatan">Jakarta Selatan</option>
+          <option value="Jakarta Timur">Jakarta Timur</option>
+          <option value="Jakarta Pusat">Jakarta Pusat</option>
+          <option value="Jakarta Barat">Jakarta Barat</option>
+          <option value="Jakarta Utara">Jakarta Utara</option>
+        </select>
+        <input name="" id="phone" placeholder="Phone Number " oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+        type = "number"
+        maxlength = "12" >
+        <p>number : 08********** (12 digit)</p>
+        <div class="btn">
+          <button id="save">Save</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Notifications Add Team -->
+    <div class="complete">
+      <div class="img">  
+        <img src="./assets/mainPages/check success.png" alt="">
+      </div>
+      <div class="text-completed">
+        <h1>Input Complete</h1>
+        <p>Congrats! Your team data successfully done</p>
+      </div>
+      <div class="btn-find">
+        <button>Find Enemy</button>
+      </div>
+    </div>
+    <!-- End Notifications -->
+  <!-- Notifications Reset Team -->
+    <div class="reset show">
+      <div class="img">  
+        <img src="./assets/mainPages/check success.png" alt="">
+      </div>
+      <div class="text-reset">
+        <h1>Reset Complete</h1>
+        <p>You've done reset your team data</p>
+      </div>
+      <div class="btn-close">
+        <button>close</button>
+      </div>
+    </div>
+    <!-- End Notifications -->
+    <script src="./script/create.js"></script>
+</body>
+</html>
